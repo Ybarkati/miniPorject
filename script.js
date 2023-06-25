@@ -17,7 +17,7 @@
 //c user to start the game
 
 //Accept their input to begin the game
-git 
+
 //click on the alien
 
   //Begin the battle, use a while loop to check if the   health of the enemy is > 0, also check for the player
