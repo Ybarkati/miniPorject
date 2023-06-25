@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fighting Game</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="conStart" id="conStart">
+    <div class="start">
+       <img src="https://media.tenor.com/mEXoadZB1QYAAAAi/man-talking.gif" alt=""  height="auto">
+       <div class="guide" id="guide"></div>
+       <div id="skip">skip</div>
+    </div>
+  </div>
+  <div class="centerTheContainer hidden" id="centerTheContainer">
+    <div class="conatainer-of-the-game">
+      <div class="mega-ship">
+        <img src="mega-ship.png" alt="" width="500px">
+      </div>
+      <div class="light" id="light">
+        <img src="blue-light.png" alt="" class="rotation0">
+        <img src="blue-light.png" alt="" class="rotation1">
+        <img src="blue-light.png" alt="" class="rotation2">
+      </div>
+      
+      <div class="aliens" id="aliens">
+       <!-- <div class="alien 1" id="alien1">
+        <img src="alien-ship.png" alt="" width="70px">
+        <div class="progress-bar">
+          <div class="progress" id="myProgress1"></div>
+        </div>
+       </div>
+       <div class="alien 1" id="alien2">
+        <img src="alien-ship.png" alt="" width="70px">
+        <div class="progress-bar">
+          <div class="progress" id="myProgress1"></div>
+        </div>
+       </div> -->
+       
+      </div>
+      <div class="Contu hidden" id="Contu">
+        <div class="continue">continue</div>
+        <div class="retreat">retreat</div>
+      </div>
+      <div id="result" class="hidden">
+        GAME OVER
+      </div>
+      <div class="player" id="player">
+        <img src="playerShip.png" alt="" height="100px">
+        <div class="progress-bar">
+          <div class="progress" id="myProgress0"></div>
+        </div>
+      </div>
+    </div>
+    <div class="laser" id="laser"></div>
+    <div class="image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Blue_Marble_rotating.gif" alt="" width="500px">
+    </div>
+   
+
+
+  </div>
+  <audio id="backgroundMusic" src="backmusic.mp3" loop></audio>
+  <audio id="explosionSound" src="explosion.wav"></audio>
+  <button id="muteButton"><img src="unmute.png" alt="" width="50px"></button>
+      
+</body>
+</html>
