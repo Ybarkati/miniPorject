@@ -16,10 +16,9 @@
 
 //c user to start the game
 
-  //Accept their input to begin the game
-
-//Start Round 1 with a while loop (check if the alien array is empty)
-  //check inside the while loop for player hull > 0
+//Accept their input to begin the game
+git 
+//click on the alien
 
   //Begin the battle, use a while loop to check if the   health of the enemy is > 0, also check for the player
 

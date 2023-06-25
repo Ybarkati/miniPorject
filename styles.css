@@ -193,8 +193,8 @@ button{
 }
 .light{
   position: absolute;
-  left: 480px;
-  top: 100px;
+  left: -200px;
+  top: 150px;
 }
 .rotation0{
   left: 600px;
